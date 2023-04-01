@@ -55,7 +55,7 @@ const updateUI = (weather) => {
 // ERROR
 const error = () => {
   card.children[0].children[0].style.display = "none";
-  details.innerHTML = `<h5 class="mb-3">Location is not found. Please try</h5>`;
+  details.innerHTML = `<h5 class="mb-3">Location is not found. Please try again</h5>`;
   if (card.classList.contains("d-none")) {
     card.classList.remove("d-none");
   }
