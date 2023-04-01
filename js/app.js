@@ -50,6 +50,8 @@ const updateUI = (weather) => {
     body.style.backgroundImage = "url(images/snow.jpg)";
   } else if (weather.weather[0].main === "Drizzle") {
     body.style.backgroundImage = "url(images/drizzle.jpg)";
+  } else if (weather.weather[0].main === "Thunderstorm") {
+    body.style.backgroundImage = "url(images/thunderstorm.jpg)";
   }
 };
 
